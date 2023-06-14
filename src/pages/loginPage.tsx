@@ -34,7 +34,7 @@ function Login() {
         <FormWrapper>
           <Header>Sign In</Header>
           <SubHeader>
-            Don't have An Account? <Link to="./signup">Sign Up</Link>.
+            Don't have An Account? <Link to="../signup">Sign Up</Link>.
           </SubHeader>
           <ButtonRow>
             <Button bgcolor="ffffff">Sign In with Google</Button>
@@ -73,7 +73,7 @@ function Login() {
                     type="checkbox"
                   />
                   <ForgotLink>
-                    <Link to="./forgotpassword">Forgot Password?</Link>
+                    <Link to="../forgotpassword">Forgot Password?</Link>
                   </ForgotLink>
                 </RowWrap>
                 <SubmitButton

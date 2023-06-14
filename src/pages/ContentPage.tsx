@@ -1,9 +1,7 @@
 import { styled } from "styled-components"
 import SideBar from "../components/sidebar"
 import SearchBar from "../components/searchBar"
-import SettingsPage from "./SettingsPage"
-import { Route, Routes, useMatch } from "react-router-dom"
-import Chats from "./Chats"
+import { Outlet } from "react-router-dom"
 import { useState } from "react"
 
 function ContentPage() {
@@ -22,8 +20,7 @@ function ContentPage() {
             setSideBarVisible={setSideBarVisible}
           />
           <ContentWrapper>
-            {/* <SettingsPage /> */}
-            <Chats />
+            <Outlet />
           </ContentWrapper>
         </PageWrapper>
       </MainWrapper>

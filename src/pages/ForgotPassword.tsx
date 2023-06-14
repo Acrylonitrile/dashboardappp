@@ -57,7 +57,7 @@ function ForgotPassword() {
             )}
           </Formik>
           <Footer>
-            <Link to="/">
+            <Link to="../login">
               <FontAwesomeIcon icon={faAngleLeft} />
               Back to Sign In
             </Link>

@@ -36,7 +36,7 @@ function SignUp() {
         <FormWrapper>
           <Header>Get Started</Header>
           <SubHeader>
-            Already Have An Account? <Link to="/">Sign in</Link>.
+            Already Have An Account? <Link to="../login">Sign in</Link>.
           </SubHeader>
           <ButtonRow>
             <Button bgcolor="ffffff">Sign In with Google</Button>
